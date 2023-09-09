@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap');
+html{
+    background-color:rgb(17, 17, 17);
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:rgb(24, 23, 23);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    z-index: 1000;
+}
+#hed1{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);;
+    font-size: 25px;
+    font-weight: bold;
+    position: sticky;
+}
+.navigb{
+    text-align: right;
+    font-weight: lighter;
+    font-size: 20px;
+    text-decoration: dashed;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    border-top: 1px;
+    border-bottom: 1px;
+    top: 0;
+}
+.navigb:hover{
+    color: aqua;
+}
+nav ul li a{
+    display: block;
+    
+}
+#homecontent{
+    margin-top: 80px;
+    color: white;
+    line-height: 10px;
+    font-size: 20px;
+   
+}
+.p1{
+    font-size: 35px;
+    margin-left: 50px;
+    position: relative;
+    top: 80px;
+    font-weight: bold;
+}
+.p2{
+    color: rgb(71, 176, 228);
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+}
+
+.img1{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30  px;
+    margin-top: 30px;
+    position: relative;
+    top: 100px;
+}
+.imgs{
+    width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.imgs1{
+    width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.tb1{
+    position: relative;
+    
+    left: 35px;
+}
+.cont1{
+    display: flex;
+}
+.box{
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#tr3{
+    display: flex;
+        color: rgba(6, 247, 255, 0.979);
+}
+#sp1::before {
+    content: "";
+    animation: animate infinite 8s;
+    padding-left: 50px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Software Developer";
+    }
+
+    50% {
+        content: "Web Designer";
+    }
+
+    75% {
+        content: "FrontEnd Developer";
+    }
+    90%{
+        content: "Java Programmer";
+    }
+}
+
+
+.home{
+    height: 500px;
+}
+ .about{
+    
+    height: 470px;
+}
+#aboutheading1{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 3px;
+}
+
+#info{
+    margin-left: 120px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#resbt{
+    margin-left: 340px;
+    background-color: #25045a;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+} 
+#resbt:hover{
+    background-color: #0056b3;
+}
+#skillhead{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 3px;
+}
+.skill1{
+    width: 500px;
+    margin:60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill1 li{
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background:linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html1{
+    width: 90%;
+    animation: html1 3s;
+}
+
+.css1{
+    width: 70%;
+    animation: css1 3s;
+}
+.java1{
+    width: 90%;
+    animation: java1 3s;
+}
+.msserv1{
+    width: 85%;
+    animation: msserv1 3s;
+}
+.js1{
+    width: 65%;
+    animation: js1 3s;
+}
+.c1{
+    width: 95%;
+    animation: c1 3s; 
+}
+.jf1{
+    width: 85%;
+    animation: jf1 3s; 
+}
+
+.asm1{
+    width: 92%;
+    animation: asm1 3s; 
+}
+
+@keyframes html1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+}
+
+@keyframes css1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%
+    }
+}
+
+
+@keyframes java1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+}
+@keyframes msserv1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%
+    }
+}
+
+@keyframes js1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%
+    }
+}
+
+@keyframes c1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%
+    }
+}
+
+@keyframes jf1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%
+    }
+}
+
+@keyframes asm1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%
+    }
+}
+
+#pjh1{
+ 
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 3px;
+}
+.projimg{
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    position: relative;
+    left: 70px;
+} 
+#tbproj{
+    border-spacing: 50px;
+}
+.projtext{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    left: 70px;
+}
+#projbutton{
+    position: relative;
+    left: 120px;
+    border-radius: 30px;
+    border: none;
+    background-color: #401fd6;
+    height: 45px;
+    color: white;
+    background:linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+#projbutton:hover{
+    background:linear-gradient(135deg,rgb(0, 220, 236)0%,rgb(31, 230, 97)100%);
+}
+#conth{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 3px;
+    
+}
+#email1{
+    color: whitesmoke;
+    
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 25px;
+    font-style: none;
+}
+footer{
+    background-color:rgb(15, 15, 15);
+    margin: -8px;
+    height: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10px;
+}
+.emp1{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+
