@@ -1,14 +1,17 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(13, 13, 34);
     
-    background:linear-gradient(135deg,rgb(0, 220, 236)0%,rgb(31, 230, 97)100%);
 }
 .calculator {
-    max-width: 320px;
+
+    max-width: 210px;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
     padding: 10px;
-    background: linear-gradient(145deg,rgb(90, 0, 236)0%,rgb(217, 230, 31)100%);
+    position: relative;
+    top: 70px;
+    background: linear-gradient(145deg,rgb(2, 7, 17)50%,rgb(40, 40, 43)100%);
     border-radius: 14px;
 }
 .calculator input[type="text"] {
@@ -20,12 +23,12 @@ body {
     background-color: #969696;
 }
 .calculator button {
-   margin: 20px;
+   margin: 10px;
     font-size: 18px;
     width: 100%;
     padding: 6px;
     border: none;
-    background: linear-gradient(rgb(236, 232, 0)0%,rgb(221, 38, 6)100%);
+    background: linear-gradient(rgb(236, 134, 0)40%,rgb(221, 38, 6)100%);
     color: white;
     cursor: pointer;
     border-radius: 30px;

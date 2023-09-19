@@ -7,7 +7,7 @@ function addTask() {
         const li = document.createElement("li");
         li.innerHTML = `
             <span>${taskText}</span>
-            <button onclick="removeTask(this)">Remove</button>
+            <button onclick="removeTask(this)">X</button>
         `;
         taskList.appendChild(li);
 
