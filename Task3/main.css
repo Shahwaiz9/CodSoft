@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+    background:linear-gradient(135deg,rgb(0, 220, 236)0%,rgb(31, 230, 97)100%);
+}
+.calculator {
+    max-width: 320px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: linear-gradient(145deg,rgb(90, 0, 236)0%,rgb(217, 230, 31)100%);
+    border-radius: 14px;
+}
+.calculator input[type="text"] {
+    width: 91%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #969696;
+}
+.calculator button {
+   margin: 20px;
+    font-size: 18px;
+    width: 100%;
+    padding: 6px;
+    border: none;
+    background: linear-gradient(rgb(236, 232, 0)0%,rgb(221, 38, 6)100%);
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
